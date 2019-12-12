@@ -1,0 +1,95 @@
+header {
+    font-family: 'Playfair Display', serif;
+    
+  }
+  .main-menu {
+    list-style: none;
+    margin: 0;
+    padding:10px;
+    text-align: center;
+    color: rgba(77, 77, 77);
+  }
+  .main-menu li {
+    display: inline;
+    
+   } 
+  .main-menu a:hover {
+      color:rgb(3, 169, 243);
+  
+  }
+  .main-menu a {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 100px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgba(77, 77, 77);
+    
+  }
+.wrapper {
+    
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif; 
+    font-size: 15px;
+    width: 970px;
+    padding-top: 10px;
+    
+}
+ article{
+    display: inline-block;
+    width: 470px;
+    margin: 0 auto;
+    padding: 5px;
+    
+}
+.wrapper img {
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+article {
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+h2 {
+    text-transform: uppercase;
+    color: rgb(180, 166, 136);
+    font-size: 13px;
+    margin-left: 25px;
+    font-weight: normal;
+    margin-top: 25px;
+    font-family: 'Roboto';
+    
+    
+}
+h3 {
+    color: rgb(95, 95, 95); 
+    font-size: 28px;
+    margin-left: 25px;
+    font-weight: normal;
+    
+}
+.wrapper p{
+    color: rgb(95, 95, 95); 
+    margin-left: 25px;
+    font-weight: normal;
+    width:450px;
+    line-height: 21px;
+    transform: scaleY(1.1);
+    
+}
+button{
+    display: block;
+    background-color: white;
+    color: rgba(77, 77, 77);
+    border: 1px solid rgba(77, 77, 77);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+}
