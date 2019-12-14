@@ -10,17 +10,21 @@ header {
     color: rgba(77, 77, 77);
   }
   .main-menu li {
-    display: inline;
-    
+    display: inline-block;
+    margin-right: 100px;
+      font-size: 0px;
    } 
-  .main-menu a:hover {
+.main-menu li:last-child{
+    margin-right: 0px;
+}
+    .main-menu a:hover {
       color:rgb(3, 169, 243);
   
   }
   .main-menu a {
     display: inline-block;
     padding: 10px;
-    margin-right: 100px;
+    
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 400;
@@ -28,37 +32,39 @@ header {
     
   }
 .wrapper {
-    
+    width: 900px;
     margin: 0 auto;
+}
+body{
     font-family: 'Playfair Display', serif; 
     font-size: 15px;
     width: 970px;
     padding-top: 10px;
-    
 }
  article{
     display: inline-block;
     width: 470px;
     margin: 0 auto;
     padding: 5px;
-    
+    font-size: 0;
 }
 .wrapper img {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: 0 auto;
 
 }
 article {
-    
-    margin-top: 20px;
+    width:420px;
     margin-bottom: 20px;
+    margin-right:60px;
     
 }
+article:nth-child(even) {
+    margin-right: 0;
 h2 {
     text-transform: uppercase;
     color: rgb(180, 166, 136);
     font-size: 13px;
-    margin-left: 25px;
+    margin: o auto;
     font-weight: normal;
     margin-top: 25px;
     font-family: 'Roboto';
@@ -68,15 +74,14 @@ h2 {
 h3 {
     color: rgb(95, 95, 95); 
     font-size: 28px;
-    margin-left: 25px;
+    margin: 0 auto;
     font-weight: normal;
     
 }
 .wrapper p{
     color: rgb(95, 95, 95); 
-    margin-left: 25px;
+    margin: 0 auto:
     font-weight: normal;
-    width:450px;
     line-height: 21px;
     transform: scaleY(1.1);
     
